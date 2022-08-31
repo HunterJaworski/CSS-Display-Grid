@@ -26,3 +26,19 @@ html {
     grid-gap: 20px;
     grid-template-rows: 40vh 40vh ;
 }
+
+
+
+@media only screen and (max-width: 950px) {
+    .grid {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, 40vh);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .grid {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(8, 40vh);
+    }
+}
