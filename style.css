@@ -20,25 +20,34 @@ html {
     font-size: var(--textSize);
 }
 
+#one {
+    height: 10vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#two {
+    /* LEARN HOW TO SPAN THIS */
+}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
-    grid-template-rows: 40vh 40vh ;
 }
 
 
-
+/*
 @media only screen and (max-width: 950px) {
     .grid {
         grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(4, 40vh);
+        grid-template-rows: repeat(3, auto);
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
     .grid {
         grid-template-columns: auto;
-        grid-template-rows: repeat(8, 40vh);
+        grid-template-rows: repeat(6, auto);
     }
 }
